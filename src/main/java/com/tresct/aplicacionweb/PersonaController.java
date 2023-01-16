@@ -11,6 +11,6 @@ import java.util.List;
 public class PersonaController {
     @GetMapping
     public List<Persona> getPersonas(){
-        return List.of(new Persona("César", 10));
+        return List.of(new Persona("Julio", 9));
     }
 }
